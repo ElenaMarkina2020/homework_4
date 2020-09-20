@@ -1,0 +1,250 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	font-size: 14;
+	font-family: "Gilroy";
+}
+
+main {
+	color: hsla(240, 86%, 28%, 0.993);
+}
+.header_logo {
+	color: rgba(231, 20, 161, 0.938);
+	font-size: 10px;
+	font-family: Roboto;
+	text-shadow: 3px 3px 3px #a83737f5;
+}
+.menu_list {
+	color: #eb5b08f1;
+	font-family: Roboto;
+	font-weight: 500;
+	text-align: right;
+}
+.menu_link {
+	color: rgba(38, 214, 38, 0.959);
+	font-family: Roboto;
+	font-weight: 500;
+}
+.title {
+	color: rgba(105, 6, 177, 0.959);
+	font-weight: 900;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	text-shadow: 3px 3px 3px #8a3df0f5;
+	line-height: 35px;
+	letter-spacing: 10px;
+}
+.title_main {
+	color: rgba(163, 20, 115, 0.938);
+	font-size: 18px;
+	font-family: Roboto;
+}
+.main_title {
+	color: rgba(158, 47, 7, 0.932);
+	font-family: Roboto;
+	font-weight: 500;
+}
+.subtitle_text {
+	color: rgba(231, 7, 82, 0.938);
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 3px 3px 3px #a83737f5;
+	line-height: 35px;
+	letter-spacing: 8px;
+}
+.main_text {
+	color: rgba(13, 146, 102, 0.918);
+	font-weight: 600;
+	line-height: 30px;
+	text-indent: 50px;
+}
+
+.main_text span {
+	color: rgba(199, 11, 11, 0.966);
+	font-weight: 600;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.subtitle_block {
+	color: rgba(7, 150, 55, 0.952);
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 3px 3px 3px #0fca18f5;
+	line-height: 35px;
+	letter-spacing: 8px;
+}
+.main_block {
+	color: rgba(184, 172, 4, 0.966);
+	font-size: 25px;
+	font-weight: 900;
+	white-space: nowrap;
+}
+.main_list.block {
+	color: rgba(196, 36, 8, 0.979);
+	font-weight: 600;
+	text-align: center;
+}
+
+.main_list {
+	color: rgba(9, 158, 158, 0.945);
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.subtitle_paragraph {
+	color: rgba(81, 3, 114, 0.973);
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 3px 3px 2px #c918cff5;
+	line-height: 35px;
+	letter-spacing: 8px;
+}
+.main_paragraph {
+	color: rgba(238, 8, 8, 0.966);
+}
+.main_paragraph .paragraph {
+	color: rgba(5, 123, 153, 0.959);
+}
+.subtitle_content {
+	color: rgba(179, 176, 6, 0.966);
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 5px 3px 3px #d4e211f5;
+	line-height: 35px;
+	letter-spacing: 8px;
+}
+.main_content .content {
+	color: #026302f5;
+	font-weight: 900;
+	text-decoration: line-through;
+}
+.subtitle_item {
+	color: rgba(158, 5, 172, 0.979);
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 3px 4px 3px #a83737f5;
+	line-height: 35px;
+	letter-spacing: 8px;
+}
+.main_item {
+	color: rgba(248, 4, 4, 0.966);
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 40px;
+	word-spacing: 20px;
+	text-indent: 50px;
+}
+.main_item.item {
+	color: rgba(243, 240, 34, 0.945);
+	font-weight: 600;
+	text-decoration: line-through;
+}
+.about_paragraph > p {
+	color: rgb(219, 12, 12);
+	font-weight: 600;
+	text-indent: 50px;
+	letter-spacing: 10px;
+}
+.paragraph_about {
+	color: mediumslateblue;
+	font-weight: 900;
+	text-decoration: underline;
+	font-style: italic;
+	text-align: right;
+}
+.item_paragraph + .paragraph_item {
+	color: rgba(58, 224, 7, 0.979);
+	font-weight: 600;
+}
+.item_paragraph {
+	color: mediumblue;
+	text-decoration: underline;
+	font-family: Roboto;
+	font-weight: 500;
+	line-height: 30px;
+}
+.footer_link.list {
+	color: rgba(167, 121, 7, 0.959);
+	font-family: Roboto;
+	font-weight: 500;
+	text-decoration: overline;
+	line-height: 30px;
+}
+.footer_link {
+	color: rgba(59, 247, 12, 0.959);
+	font-family: Roboto;
+	font-weight: 500;
+	line-height: 30px;
+}
